@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather");
+body {
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+body h1 {
+  font-family: "Fira Sans", sans-serif;
+}
+body textarea {
+  height: 100px;
+  width: 300px;
+}
+
+/*# sourceMappingURL=markdown-previewer.css.map */
