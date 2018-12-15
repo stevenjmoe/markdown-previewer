@@ -2,13 +2,24 @@
 body {
   text-align: center;
   font-family: "Merriweather", serif;
+  background-color: #a22425;
 }
-body h1 {
+body #title, body h3 {
   font-family: "Fira Sans", sans-serif;
+  color: white;
 }
-body textarea {
-  height: 100px;
-  width: 300px;
+body code {
+  background-color: lightgray;
+}
+body #preview, body textarea {
+  color: #d92f31;
+  border-radius: 2%;
+  height: 30em;
+  width: 100%;
+  text-align: left;
+  background-color: white;
+  overflow: scroll;
+  padding: 5px;
 }
 
 /*# sourceMappingURL=markdown-previewer.css.map */

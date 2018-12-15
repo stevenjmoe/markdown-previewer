@@ -1,16 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather');
 
+
 body {
     text-align: center;
-font-family: 'Merriweather', serif;
+    font-family: 'Merriweather', serif;
+    background-color: rgb(162, 36, 37);
+    
 
-    h1 {
+    #title, h3 {
         font-family: 'Fira Sans', sans-serif;
+        color: white;
     }
-    textarea {
-        height: 100px;
-        width: 300px;
+    
+    code {
+        background-color: lightgray;
     }
+    
+    #preview, textarea {
+        color: rgb(217, 47, 49);       
+        border-radius: 2%;
+        height: 30em;
+        width: 100%;
+        text-align: left;
+        background-color: white;
+        overflow: scroll;
+        padding: 5px;
+    }
+    
 }
 
 
