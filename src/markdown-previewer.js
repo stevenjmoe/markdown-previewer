@@ -16,17 +16,19 @@ renderer.link = function(href, title, text)  {
 
 //TODO -  list, blockquote, image, bolded text
 const placeholder = "# This is a heading"
-                    +  "\n ## This is a subheading"
-                    + "\n [This](www.google.com) is a link"
-                    + "\n ` here is some inline code` "
-                    + "\n \`\`\` and this is a block of multiline code"
-                    + "\n another line"
-                    + "\n another line \`\`\`"
-                    + "\n * list item 1"
-                    + "\n * list item 2"
-                    + "\n > This is a blockquote!"
-                    + "\n Here is a cat:  \n![a cat picture](https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=150)"
-                    + "\n **and finally here is some bolded text**"
+                    + "\r## This is a subheading"
+                    + "\r[This](www.google.com) is a link"
+                    + "\r` here is some inline code` "
+                    + "\r \`\`\`" 
+                    + "\rand this is a block of multiline code"
+                    + "\ranother line"
+                    + "\ranother line "
+                     + "\r\`\`\`"
+                    + "\r1. list item 1"
+                    + "\r2. list item 2"
+                    + "\r\r>This is a blockquote!"
+                    + "\rHere is a cat:  \n![a cat picture](https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=150)"
+                    + "\r**and finally here is some bolded text**"
 
 class MarkdownPreviewer extends Component {
     constructor(props) {
