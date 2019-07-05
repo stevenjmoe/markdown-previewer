@@ -55,7 +55,7 @@ class MarkdownPreviewer extends Component {
                 <div class="input">
                     <h3>Input: </h3>
                     <div id="editor">
-                        <textarea value={this.state.markdown} onChange={this.handleChange} />
+                        <textarea class="editor" value={this.state.markdown} onChange={this.handleChange} />
                     </div>
                 </div>
                 <div class="output">

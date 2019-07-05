@@ -6,13 +6,14 @@
 * body {
   text-align: center;
   font-family: "Merriweather", serif;
-  background-color: #a22425;
+  background-color: #211D22;
 }
 * body code {
-  background-color: lightgray;
+  background-color: #504c4c;
 }
 * body .container {
-  padding: 10rem;
+  height: 1vh;
+  padding: 5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 1fr;
@@ -22,7 +23,7 @@
 * body .container #title,
 * body .container h3 {
   font-family: "Fira Sans", sans-serif;
-  color: white;
+  color: #F0F2F3;
 }
 * body .container .title {
   height: auto;
@@ -32,6 +33,7 @@
   margin-bottom: 1rem;
 }
 * body .container .input {
+  height: auto;
   grid-area: input;
 }
 * body .container .output {
@@ -39,14 +41,16 @@
 }
 * body .container #preview,
 * body .container textarea {
-  color: #d92f31;
+  border: none;
   border-radius: 2%;
   text-align: left;
   background-color: white;
   overflow: scroll;
   padding: 0.5rem;
   width: 100%;
-  height: 30rem;
+  height: 15rem;
+  background-color: black;
+  color: #F0F2F3;
 }
 
 @media only screen and (max-width: 640px) {

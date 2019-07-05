@@ -5,13 +5,14 @@
   body {
     text-align: center;
     font-family: "Merriweather", serif;
-    background-color: rgb(162, 36, 37);
+    background-color: #211D22 ;
     code {
-      background-color: lightgray;
+      background-color: #504c4c;
     }
 
     .container {
-      padding: 10rem;
+      height: 1vh;
+      padding: 5rem;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto 1fr;
@@ -23,7 +24,7 @@
       #title,
       h3 {
         font-family: "Fira Sans", sans-serif;
-        color: white;
+        color: #F0F2F3;
       }
 
       .title {
@@ -36,23 +37,27 @@
       }
 
       .input {
+        height: auto;
         grid-area: input;
       }
       
       .output {
         grid-area: output;
+        
       }
 
       #preview,
       textarea {
-        color: rgb(217, 47, 49);
+        border: none;
         border-radius: 2%;
         text-align: left;
         background-color: white;
         overflow: scroll;
         padding: 0.5rem;
         width: 100%;
-        height: 30rem;
+        height: 15rem;
+        background-color: black;
+        color: #F0F2F3;
       }
     }
   }
