@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather");
+* {
+  margin: 0;
+  padding: 0;
+}
+* body {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #211D22;
+}
+* body code {
+  background-color: #504c4c;
+}
+* body .container {
+  height: 1vh;
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  grid-gap: 3rem;
+  grid-template-areas: "header header" "input output";
+}
+* body .container #title,
+* body .container h3 {
+  font-family: "Fira Sans", sans-serif;
+  color: #F0F2F3;
+}
+* body .container .title {
+  height: auto;
+  grid-area: header;
+}
+* body .container h3 {
+  margin-bottom: 1rem;
+}
+* body .container .input {
+  height: auto;
+  grid-area: input;
+}
+* body .container .output {
+  grid-area: output;
+}
+* body .container #preview,
+* body .container textarea {
+  border: none;
+  border-radius: 2%;
+  text-align: left;
+  background-color: white;
+  overflow: scroll;
+  padding: 0.5rem;
+  width: 100%;
+  height: 15rem;
+  background-color: black;
+  color: #F0F2F3;
+}
+
+@media only screen and (max-width: 640px) {
+  * body .container {
+    margin: 0 1rem 0 1rem;
+    padding: 0 1rem 0 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    grid-gap: 1rem;
+    grid-template-areas: "header" "input" "output";
+    padding: 0;
+  }
+  * body .container #preview,
+* body .container textarea {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=markdown-previewer.css.map */
